@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3C4254</color>
+    <color name="colorPrimaryDark">#413D56</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorStatusBar">#3C4254</color>
+    <color name="colorYellow">#FCB100</color>
+    <color name="darkgrey">#434B5E</color>
+    // dots inactive colors
+    <color name="dark_one">#FFFFFF</color>
+    <color name="dark_two">#FFFFFF</color>
+    <color name="dark_three">#FFFFFF</color>
+
+    // dots active colors
+    <color name="orange_one">#FCB100</color>
+    <color name="orange_two">#FCB100</color>
+    <color name="orange_three">#FCB100</color>
+
+
+    <array name="active">
+        <item>@color/orange_one</item>
+        <item>@color/orange_two</item>
+        <item>@color/orange_three</item>
+    </array>
+
+    <array name="inactive">
+        <item>@color/dark_one</item>
+        <item>@color/dark_two</item>
+        <item>@color/dark_three</item>
+    </array>
+
+</resources>

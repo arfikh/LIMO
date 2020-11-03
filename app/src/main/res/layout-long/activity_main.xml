@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/limologo"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="70dp">
+
+    </ImageView>
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="55dp"
+        android:text="Selamat Datang,"
+        android:fontFamily="@font/gothambold"
+        android:textColor="#FFF"
+        android:textSize="25dp"
+        android:layout_marginTop="175dp">        >
+
+    </TextView>
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="55dp"
+        android:text="Silahkan Login"
+        android:fontFamily="@font/gothamthin"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:layout_marginTop="210dp">        >
+
+    </TextView>
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="50dp"
+        android:layout_centerHorizontal="true"
+        android:outlineAmbientShadowColor="#43000000"
+        android:outlineSpotShadowColor="#43000000">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/gothammedium"
+            android:hint="username"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="#4000" />
+
+        <View
+            android:id="@+id/separator"
+            android:layout_width="10dp"
+            android:layout_height="0dp"
+            android:layout_below="@+id/username"
+            android:background="#FFF" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/separator"
+            android:drawableLeft="@drawable/ic_baseline_security_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/gothammedium"
+            android:hint="*************"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="#4000"
+            android:inputType="textPassword" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/lupaPw"
+        android:fontFamily="@font/gothambold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lupa Password?"
+        android:textColor="#FFF"
+        android:layout_below="@+id/relative"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:fontFamily="@font/gothambold"
+        android:background="@drawable/shape_rectangle_root"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="530dp"
+        android:backgroundTint="#FCB100"
+        android:text="Login" />
+
+
+</RelativeLayout>
